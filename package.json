@@ -1,6 +1,6 @@
 {
   "name": "socketlogger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A logger plugin for socket.io-manager",
   "main": "index.js",
   "scripts": {
