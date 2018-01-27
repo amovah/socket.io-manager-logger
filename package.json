@@ -1,0 +1,28 @@
+{
+  "name": "socketlogger",
+  "version": "0.0.0",
+  "description": "A logger plugin for socket.io-manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amovah/socketlogger.git"
+  },
+  "keywords": [
+    "socet.io-manager",
+    "logger",
+    "colorful",
+    "plugin"
+  ],
+  "author": "Ali Movahedi <ali_movahedi@aol.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amovah/socketlogger/issues"
+  },
+  "homepage": "https://github.com/amovah/socketlogger#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
