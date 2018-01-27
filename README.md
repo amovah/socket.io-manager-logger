@@ -1,4 +1,4 @@
-# socket.io-manager-loggger
+# socket.io-manager-logger
 
 A logger plugin for socket.io-manager
 
@@ -16,8 +16,8 @@ yarn add socket.io-manager-logger
 
 ```javascript
 import { applyMiddleware } from 'socket.io-manager';
-import loggger from 'socket.io-manager-logger';
+import logger from 'socket.io-manager-logger';
 import sockets from './sockets';
 
-sockets = applyMiddleware([loggger], sockets);
+sockets = applyMiddleware([logger], sockets);
 ```

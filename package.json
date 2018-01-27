@@ -1,14 +1,11 @@
 {
   "name": "socket.io-manager-logger",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "description": "A logger plugin for socket.io-manager",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amovah/socketlogger.git"
+    "url": "git+https://github.com/amovah/socket.io-manager-logger.git"
   },
   "keywords": [
     "socet.io-manager",
@@ -19,9 +16,9 @@
   "author": "Ali Movahedi <ali_movahedi@aol.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amovah/socketlogger/issues"
+    "url": "https://github.com/amovah/socket.io-manager-logger/issues"
   },
-  "homepage": "https://github.com/amovah/socketlogger#readme",
+  "homepage": "https://github.com/amovah/socket.io-manager-logger#readme",
   "dependencies": {
     "colors": "^1.1.2"
   }
