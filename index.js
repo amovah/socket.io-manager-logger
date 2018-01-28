@@ -12,4 +12,6 @@ module.exports = (next, socket) => (...args) => {
       arg
     );
   }
+
+  next();
 }

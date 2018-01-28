@@ -1,6 +1,6 @@
 {
   "name": "socket.io-manager-logger",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "A logger plugin for socket.io-manager",
   "main": "index.js",
   "repository": {
