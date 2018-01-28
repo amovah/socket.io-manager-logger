@@ -13,5 +13,7 @@ module.exports = (next, socket) => (...args) => {
     );
   }
 
+  console.log(colors.red('===='));
+
   next();
 }
