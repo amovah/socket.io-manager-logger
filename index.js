@@ -1,9 +1,10 @@
 const colors = require('colors/safe');
 
-module.exports = (next, socket) => (...args) => {
+module.exports = (next, { socket }) => (...args) => {
   console.log(
     colors.yellow('namespace'), colors.green(socket.nsp.name),
-    colors.yellow('event'), colors.green(socket.eventName)
+    colors.yellow('event'), colors.green(socket.eventName),
+    colors.red('id'), colors.green(socket.id)
   );
 
   for (let [index, arg] of args.entries()) {
